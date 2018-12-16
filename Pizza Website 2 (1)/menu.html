@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>	
+<html lang="en">
+<head>
+  <!-- basic.html -->
+  <title>Menu</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+	 <nav class="header" id="responsiveNav">
+	 <a href="index.html" class="logo">Giant New York Pizza</a>
+  <div class="header-right">
+<a class="active" href="menu.html">Menu</a>
+    <a href="index.html#unique-identifier">Contact</a>
+    <a href="index.html">Home</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+</nav>
+
+
+
+	<div id="menu">
+	<img class="menu1" src="image/menu.jpg">
+
+	
+	<img class="menu2" src="image/menu2.jpg">
+</div>
+
+
+	<footer><div class="footer-container">
+  <ul class= "list-inline">
+ 
+    <li><a href="https://www.facebook.com/newyorkpizzavallejo/?ref=py_c"><i class="fa fa-facebook fa-fw bg-facebook" aria-hidden="true"></i></a></li>
+ 
+    <li><a href="#"><i class="fa fa-linkedin fa-fw bg-linkedin-footer" aria-hidden="true"></i></a></li>
+    
+    <li><a href="mailto:someone@example.com" method="post" enctype="text/plain"><i class="fa fa-envelope-o fa-fw bg-envelope" aria-hidden="true"></i></a></li>
+  </ul>
+  <p>Copyright &copy; Bach&Byrne 2018</p>
+</div>
+  </footer>
+
+  <script>
+function myFunction() {
+var x = document.getElementById("responsiveNav");
+if (x.className === "header") {
+x.className += " responsive";
+} else {
+x.className = "header";
+}
+}
+</script>
+
+</body>
+</html>
